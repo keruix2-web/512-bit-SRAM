@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "changed_existing": [
+    "schematic/ece6130_library/DFF/schematic/sch.oa",
+    "schematic/ece6130_library/inDEC2x4__INV_stage1/schematic/sch.oa",
+    "schematic/ece6130_library/inDEC2x4__INV_stage3/schematic/sch.oa",
+    "schematic/ece6130_library/inDEC2x4__NAND3_stage2/schematic/sch.oa",
+    "schematic/ece6130_library/inDEC4x16__INV_stage1/schematic/sch.oa",
+    "schematic/ece6130_library/inDEC4x16__INV_stage3/schematic/sch.oa",
+    "schematic/ece6130_library/inDEC4x16__NAND2_stage4/schematic/sch.oa",
+    "schematic/ece6130_library/inDEC4x16__NAND3_stage2/schematic/sch.oa",
+    "schematic/ece6130_library/inDFF__INV_forward/schematic/sch.oa",
+    "schematic/ece6130_library/inDFF__TG_forward/schematic/sch.oa"
+  ],
+  "new_views": [
+    "schematic/ece6130_library/DEC2x4_SYSTEM/schematic/sch.oa",
+    "schematic/ece6130_library/DEC2x4_SYSTEM/symbol/symbol.oa",
+    "schematic/ece6130_library/ROW_DECODER_FRONT_SYSTEM/schematic/sch.oa",
+    "schematic/ece6130_library/ROW_DECODER_FRONT_SYSTEM/symbol/symbol.oa",
+    "schematic/ece6130_library/SRAM_DFF_OUTPUT/schematic/sch.oa",
+    "schematic/ece6130_library/SRAM_DFF_OUTPUT/symbol/symbol.oa",
+    "schematic/ece6130_library/SRAM_SEL_BUF1/schematic/sch.oa",
+    "schematic/ece6130_library/SRAM_SEL_BUF1/symbol/symbol.oa",
+    "schematic/ece6130_library/SRAM_SEL_BUF2/schematic/sch.oa",
+    "schematic/ece6130_library/SRAM_SEL_BUF2/symbol/symbol.oa",
+    "schematic/ece6130_library/SRAM_SYSTEM/schematic/sch.oa",
+    "schematic/ece6130_library/SRAM_SYSTEM/symbol/symbol.oa"
+  ],
+  "all_existing_layouts_unchanged": true,
+  "SRAM_INTEGRATED_and_driver_views_unchanged": true,
+  "total_OA_views": 109
+}

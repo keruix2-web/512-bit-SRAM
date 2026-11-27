@@ -1,0 +1,18 @@
+{
+  "dff": {
+    "identical_flattened_MOS_and_connections": true,
+    "native_MOS": 16,
+    "prototype_MOS": 16
+  },
+  "dec2x4_system": {
+    "identical_flattened_MOS_and_connections": true,
+    "native_MOS": 68,
+    "prototype_MOS": 68
+  },
+  "row_decoder_front_system": {
+    "identical_flattened_MOS_and_connections": true,
+    "native_MOS": 136,
+    "prototype_MOS": 136
+  },
+  "SRAM_SYSTEM_connections": "PASS: all 27 functional instances checked by named ports"
+}

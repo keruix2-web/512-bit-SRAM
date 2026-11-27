@@ -1,0 +1,2394 @@
+{
+  "pex": {
+    "status": "PASS",
+    "operations": 32,
+    "core_checks": 1568,
+    "core_failures": 0,
+    "registered_checks": 128,
+    "registered_failures": 0,
+    "failures": [],
+    "mean_power_uW": 381.42413600000003,
+    "column_transition_ps": 221.07486226367178,
+    "clock_to_WL_ps": 215.95065507174382,
+    "clock_fall_to_far_WL_fall_ps": 167.05799235650431,
+    "clock_to_sense_valid_ps": 765.0000000000006,
+    "clock_to_DL100mV_ps": 320.0000000000003,
+    "sense_enable_to_output_edge_ps": 201.70073695337842,
+    "output_register_clock_Q_ps": 85.58757712698295,
+    "Vread_V": 0.13513617,
+    "write_crossing_ps": 469.99999999999886,
+    "falling_cell_node_50pct_ps": 449.9999999999993,
+    "precharge_95pct_ps": null,
+    "precharge_not_reached_count": 32,
+    "precharge_observation_window_ps": 335,
+    "reads": [
+      {
+        "operation": 1,
+        "bit": 0,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 290.00000000000006,
+        "sense_enable_to_edge_ps": 171.6112231326513,
+        "output_register_clock_Q_ps": 85.51032068502806
+      },
+      {
+        "operation": 1,
+        "bit": 1,
+        "sense_logic_valid_ps": 459.99999999999994,
+        "clock_to_DL100mV_ps": 290.00000000000006,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 1,
+        "bit": 2,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 274.9999999999999,
+        "sense_enable_to_edge_ps": 172.68151667478625,
+        "output_register_clock_Q_ps": 85.51047562727021
+      },
+      {
+        "operation": 1,
+        "bit": 3,
+        "sense_logic_valid_ps": 459.99999999999994,
+        "clock_to_DL100mV_ps": 290.00000000000006,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 1,
+        "bit": 4,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 279.99999999999983,
+        "sense_enable_to_edge_ps": 172.61256070106944,
+        "output_register_clock_Q_ps": 85.51050140373029
+      },
+      {
+        "operation": 1,
+        "bit": 5,
+        "sense_logic_valid_ps": 459.99999999999994,
+        "clock_to_DL100mV_ps": 290.00000000000006,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 1,
+        "bit": 6,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 172.6120747208081,
+        "output_register_clock_Q_ps": 85.51051960894807
+      },
+      {
+        "operation": 1,
+        "bit": 7,
+        "sense_logic_valid_ps": 459.99999999999994,
+        "clock_to_DL100mV_ps": 300.0000000000003,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 3,
+        "bit": 0,
+        "sense_logic_valid_ps": 764.9999999999997,
+        "clock_to_DL100mV_ps": 315.0000000000004,
+        "sense_enable_to_edge_ps": 201.70073695337842,
+        "output_register_clock_Q_ps": 53.95961552735873
+      },
+      {
+        "operation": 3,
+        "bit": 1,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 280.0000000000002,
+        "sense_enable_to_edge_ps": 171.31926159494293,
+        "output_register_clock_Q_ps": 85.58731698788247
+      },
+      {
+        "operation": 3,
+        "bit": 2,
+        "sense_logic_valid_ps": 764.9999999999997,
+        "clock_to_DL100mV_ps": 290.00000000000006,
+        "sense_enable_to_edge_ps": 201.33545146441222,
+        "output_register_clock_Q_ps": 53.95818504676786
+      },
+      {
+        "operation": 3,
+        "bit": 3,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 280.0000000000002,
+        "sense_enable_to_edge_ps": 171.63971384150167,
+        "output_register_clock_Q_ps": 85.58734000162005
+      },
+      {
+        "operation": 3,
+        "bit": 4,
+        "sense_logic_valid_ps": 764.9999999999997,
+        "clock_to_DL100mV_ps": 290.00000000000006,
+        "sense_enable_to_edge_ps": 201.02536951443318,
+        "output_register_clock_Q_ps": 53.95718293423535
+      },
+      {
+        "operation": 3,
+        "bit": 5,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 280.0000000000002,
+        "sense_enable_to_edge_ps": 171.33654318490466,
+        "output_register_clock_Q_ps": 85.58732046244444
+      },
+      {
+        "operation": 3,
+        "bit": 6,
+        "sense_logic_valid_ps": 764.9999999999997,
+        "clock_to_DL100mV_ps": 290.00000000000006,
+        "sense_enable_to_edge_ps": 200.2125368432285,
+        "output_register_clock_Q_ps": 53.95428946140335
+      },
+      {
+        "operation": 3,
+        "bit": 7,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 305.0000000000006,
+        "sense_enable_to_edge_ps": 171.23687382182274,
+        "output_register_clock_Q_ps": 85.58730394779789
+      },
+      {
+        "operation": 5,
+        "bit": 0,
+        "sense_logic_valid_ps": 714.9999999999999,
+        "clock_to_DL100mV_ps": 314.9999999999995,
+        "sense_enable_to_edge_ps": 182.2427599318871,
+        "output_register_clock_Q_ps": 85.57767164195695
+      },
+      {
+        "operation": 5,
+        "bit": 1,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 200.96287085715613,
+        "output_register_clock_Q_ps": 53.95828211195308
+      },
+      {
+        "operation": 5,
+        "bit": 2,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 279.9999999999994,
+        "sense_enable_to_edge_ps": 171.5017007309697,
+        "output_register_clock_Q_ps": 85.57743606666612
+      },
+      {
+        "operation": 5,
+        "bit": 3,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 200.5518592343124,
+        "output_register_clock_Q_ps": 53.95621163982511
+      },
+      {
+        "operation": 5,
+        "bit": 4,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 171.31019963543037,
+        "output_register_clock_Q_ps": 85.57734670658057
+      },
+      {
+        "operation": 5,
+        "bit": 5,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 200.5114501455546,
+        "output_register_clock_Q_ps": 53.956057370267985
+      },
+      {
+        "operation": 5,
+        "bit": 6,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 171.12595696646815,
+        "output_register_clock_Q_ps": 85.57733905481335
+      },
+      {
+        "operation": 5,
+        "bit": 7,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 299.99999999999983,
+        "sense_enable_to_edge_ps": 199.45025510551005,
+        "output_register_clock_Q_ps": 53.951830370710496
+      },
+      {
+        "operation": 7,
+        "bit": 0,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 310.0000000000005,
+        "sense_enable_to_edge_ps": 200.96360817564062,
+        "output_register_clock_Q_ps": 53.95315068481388
+      },
+      {
+        "operation": 7,
+        "bit": 1,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 171.70306254992462,
+        "output_register_clock_Q_ps": 85.5830287687489
+      },
+      {
+        "operation": 7,
+        "bit": 2,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 200.501102915147,
+        "output_register_clock_Q_ps": 53.951607370214205
+      },
+      {
+        "operation": 7,
+        "bit": 3,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 171.9020963072685,
+        "output_register_clock_Q_ps": 85.58294498617336
+      },
+      {
+        "operation": 7,
+        "bit": 4,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 200.20188702609454,
+        "output_register_clock_Q_ps": 53.95002034049057
+      },
+      {
+        "operation": 7,
+        "bit": 5,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 171.45562325863517,
+        "output_register_clock_Q_ps": 85.58287519445784
+      },
+      {
+        "operation": 7,
+        "bit": 6,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 290.0000000000009,
+        "sense_enable_to_edge_ps": 199.99897777666163,
+        "output_register_clock_Q_ps": 53.94925391460603
+      },
+      {
+        "operation": 7,
+        "bit": 7,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 304.9999999999997,
+        "sense_enable_to_edge_ps": 170.9656639037943,
+        "output_register_clock_Q_ps": 85.58286267573578
+      },
+      {
+        "operation": 9,
+        "bit": 0,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 310.0000000000005,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 1,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 275.00000000000034,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 2,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 290.0000000000009,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 3,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 280.00000000000114,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 4,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 290.0000000000009,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 5,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 280.00000000000114,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 6,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 290.0000000000009,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 7,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 300.0000000000007,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 11,
+        "bit": 0,
+        "sense_logic_valid_ps": 710.0000000000009,
+        "clock_to_DL100mV_ps": 315.00000000000125,
+        "sense_enable_to_edge_ps": 180.08130089716744,
+        "output_register_clock_Q_ps": 85.58757712698295
+      },
+      {
+        "operation": 11,
+        "bit": 1,
+        "sense_logic_valid_ps": 764.9999999999987,
+        "clock_to_DL100mV_ps": 290.0000000000009,
+        "sense_enable_to_edge_ps": 200.196712444899,
+        "output_register_clock_Q_ps": 53.955004524596006
+      },
+      {
+        "operation": 11,
+        "bit": 2,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 280.00000000000114,
+        "sense_enable_to_edge_ps": 170.59662213136605,
+        "output_register_clock_Q_ps": 85.58727860220117
+      },
+      {
+        "operation": 11,
+        "bit": 3,
+        "sense_logic_valid_ps": 764.9999999999987,
+        "clock_to_DL100mV_ps": 290.0000000000009,
+        "sense_enable_to_edge_ps": 199.83512167010298,
+        "output_register_clock_Q_ps": 53.953574354160594
+      },
+      {
+        "operation": 11,
+        "bit": 4,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 170.45607705613486,
+        "output_register_clock_Q_ps": 85.58728060532061
+      },
+      {
+        "operation": 11,
+        "bit": 5,
+        "sense_logic_valid_ps": 764.9999999999987,
+        "clock_to_DL100mV_ps": 290.0000000000009,
+        "sense_enable_to_edge_ps": 199.80362420732456,
+        "output_register_clock_Q_ps": 53.95344865049623
+      },
+      {
+        "operation": 11,
+        "bit": 6,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 170.36957894617666,
+        "output_register_clock_Q_ps": 85.5872827716837
+      },
+      {
+        "operation": 11,
+        "bit": 7,
+        "sense_logic_valid_ps": 764.9999999999987,
+        "clock_to_DL100mV_ps": 300.0000000000007,
+        "sense_enable_to_edge_ps": 198.7556511777745,
+        "output_register_clock_Q_ps": 53.94910297141031
+      },
+      {
+        "operation": 13,
+        "bit": 0,
+        "sense_logic_valid_ps": 764.9999999999987,
+        "clock_to_DL100mV_ps": 314.9999999999977,
+        "sense_enable_to_edge_ps": 200.06686471814504,
+        "output_register_clock_Q_ps": 53.86905177442003
+      },
+      {
+        "operation": 13,
+        "bit": 1,
+        "sense_logic_valid_ps": 700.000000000001,
+        "clock_to_DL100mV_ps": 279.9999999999994,
+        "sense_enable_to_edge_ps": 170.20748174091992,
+        "output_register_clock_Q_ps": 85.50936255833363
+      },
+      {
+        "operation": 13,
+        "bit": 2,
+        "sense_logic_valid_ps": 764.9999999999987,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 199.5964257992776,
+        "output_register_clock_Q_ps": 53.86758187268725
+      },
+      {
+        "operation": 13,
+        "bit": 3,
+        "sense_logic_valid_ps": 705.0000000000001,
+        "clock_to_DL100mV_ps": 279.9999999999994,
+        "sense_enable_to_edge_ps": 170.33345121501085,
+        "output_register_clock_Q_ps": 85.50938696665256
+      },
+      {
+        "operation": 13,
+        "bit": 4,
+        "sense_logic_valid_ps": 764.9999999999987,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 199.33137534140798,
+        "output_register_clock_Q_ps": 53.86657566035069
+      },
+      {
+        "operation": 13,
+        "bit": 5,
+        "sense_logic_valid_ps": 700.000000000001,
+        "clock_to_DL100mV_ps": 279.9999999999994,
+        "sense_enable_to_edge_ps": 170.0092071254454,
+        "output_register_clock_Q_ps": 85.50936742582849
+      },
+      {
+        "operation": 13,
+        "bit": 6,
+        "sense_logic_valid_ps": 764.9999999999987,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 198.8409101120071,
+        "output_register_clock_Q_ps": 53.864440643828004
+      },
+      {
+        "operation": 13,
+        "bit": 7,
+        "sense_logic_valid_ps": 700.000000000001,
+        "clock_to_DL100mV_ps": 304.9999999999997,
+        "sense_enable_to_edge_ps": 169.95739400911825,
+        "output_register_clock_Q_ps": 85.50939267119162
+      },
+      {
+        "operation": 15,
+        "bit": 0,
+        "sense_logic_valid_ps": 714.9999999999999,
+        "clock_to_DL100mV_ps": 320.0000000000003,
+        "sense_enable_to_edge_ps": 181.93463934930364,
+        "output_register_clock_Q_ps": 85.57721162169685
+      },
+      {
+        "operation": 15,
+        "bit": 1,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 199.77937659167765,
+        "output_register_clock_Q_ps": 53.9537533946195
+      },
+      {
+        "operation": 15,
+        "bit": 2,
+        "sense_logic_valid_ps": 704.9999999999983,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 171.05231283272047,
+        "output_register_clock_Q_ps": 85.57679602461477
+      },
+      {
+        "operation": 15,
+        "bit": 3,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 199.36951288346037,
+        "output_register_clock_Q_ps": 53.95161518917746
+      },
+      {
+        "operation": 15,
+        "bit": 4,
+        "sense_logic_valid_ps": 704.9999999999983,
+        "clock_to_DL100mV_ps": 290.00000000000273,
+        "sense_enable_to_edge_ps": 170.86278090730588,
+        "output_register_clock_Q_ps": 85.57681828820307
+      },
+      {
+        "operation": 15,
+        "bit": 5,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 290.00000000000273,
+        "sense_enable_to_edge_ps": 199.33874029124198,
+        "output_register_clock_Q_ps": 53.951494815947854
+      },
+      {
+        "operation": 15,
+        "bit": 6,
+        "sense_logic_valid_ps": 704.9999999999983,
+        "clock_to_DL100mV_ps": 290.00000000000273,
+        "sense_enable_to_edge_ps": 170.63758956919216,
+        "output_register_clock_Q_ps": 85.57679176993105
+      },
+      {
+        "operation": 15,
+        "bit": 7,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 304.9999999999997,
+        "sense_enable_to_edge_ps": 199.05311096385546,
+        "output_register_clock_Q_ps": 53.95058460456781
+      },
+      {
+        "operation": 17,
+        "bit": 0,
+        "sense_logic_valid_ps": 764.999999999997,
+        "clock_to_DL100mV_ps": 304.9999999999997,
+        "sense_enable_to_edge_ps": 199.78927737977813,
+        "output_register_clock_Q_ps": 53.9529506967078
+      },
+      {
+        "operation": 17,
+        "bit": 1,
+        "sense_logic_valid_ps": 705.0000000000018,
+        "clock_to_DL100mV_ps": 280.00000000000114,
+        "sense_enable_to_edge_ps": 172.14730661735743,
+        "output_register_clock_Q_ps": 85.57722655289624
+      },
+      {
+        "operation": 17,
+        "bit": 2,
+        "sense_logic_valid_ps": 764.999999999997,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 199.9086751321245,
+        "output_register_clock_Q_ps": 53.953697007987245
+      },
+      {
+        "operation": 17,
+        "bit": 3,
+        "sense_logic_valid_ps": 705.0000000000018,
+        "clock_to_DL100mV_ps": 280.00000000000114,
+        "sense_enable_to_edge_ps": 171.77806873708278,
+        "output_register_clock_Q_ps": 85.577225857282
+      },
+      {
+        "operation": 17,
+        "bit": 4,
+        "sense_logic_valid_ps": 764.999999999997,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 199.60680264431772,
+        "output_register_clock_Q_ps": 53.95242555072244
+      },
+      {
+        "operation": 17,
+        "bit": 5,
+        "sense_logic_valid_ps": 705.0000000000018,
+        "clock_to_DL100mV_ps": 280.00000000000114,
+        "sense_enable_to_edge_ps": 171.28921442801058,
+        "output_register_clock_Q_ps": 85.57724324768756
+      },
+      {
+        "operation": 17,
+        "bit": 6,
+        "sense_logic_valid_ps": 764.999999999997,
+        "clock_to_DL100mV_ps": 289.99999999999915,
+        "sense_enable_to_edge_ps": 199.9208567847498,
+        "output_register_clock_Q_ps": 53.95366434839488
+      },
+      {
+        "operation": 17,
+        "bit": 7,
+        "sense_logic_valid_ps": 699.9999999999993,
+        "clock_to_DL100mV_ps": 294.9999999999982,
+        "sense_enable_to_edge_ps": 170.28350095918597,
+        "output_register_clock_Q_ps": 85.57673716133962
+      },
+      {
+        "operation": 19,
+        "bit": 0,
+        "sense_logic_valid_ps": 719.9999999999989,
+        "clock_to_DL100mV_ps": 314.9999999999977,
+        "sense_enable_to_edge_ps": 186.58992983394938,
+        "output_register_clock_Q_ps": 85.46926549663425
+      },
+      {
+        "operation": 19,
+        "bit": 1,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 284.9999999999966,
+        "sense_enable_to_edge_ps": 200.6582295437832,
+        "output_register_clock_Q_ps": 53.910241400259906
+      },
+      {
+        "operation": 19,
+        "bit": 2,
+        "sense_logic_valid_ps": 705.0000000000018,
+        "clock_to_DL100mV_ps": 274.9999999999986,
+        "sense_enable_to_edge_ps": 172.82614917453586,
+        "output_register_clock_Q_ps": 85.46877654296736
+      },
+      {
+        "operation": 19,
+        "bit": 3,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 284.9999999999966,
+        "sense_enable_to_edge_ps": 200.204709554327,
+        "output_register_clock_Q_ps": 53.908429745124664
+      },
+      {
+        "operation": 19,
+        "bit": 4,
+        "sense_logic_valid_ps": 705.0000000000018,
+        "clock_to_DL100mV_ps": 279.9999999999976,
+        "sense_enable_to_edge_ps": 172.5772417857415,
+        "output_register_clock_Q_ps": 85.4687884797194
+      },
+      {
+        "operation": 19,
+        "bit": 5,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 289.99999999999915,
+        "sense_enable_to_edge_ps": 200.14496033435535,
+        "output_register_clock_Q_ps": 53.90816268637266
+      },
+      {
+        "operation": 19,
+        "bit": 6,
+        "sense_logic_valid_ps": 705.0000000000018,
+        "clock_to_DL100mV_ps": 279.9999999999976,
+        "sense_enable_to_edge_ps": 172.2176839775139,
+        "output_register_clock_Q_ps": 85.46879195222701
+      },
+      {
+        "operation": 19,
+        "bit": 7,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 299.99999999999716,
+        "sense_enable_to_edge_ps": 199.38158258787496,
+        "output_register_clock_Q_ps": 53.904942440183845
+      },
+      {
+        "operation": 21,
+        "bit": 0,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 304.9999999999997,
+        "sense_enable_to_edge_ps": 200.43098164146343,
+        "output_register_clock_Q_ps": 53.95523062639995
+      },
+      {
+        "operation": 21,
+        "bit": 1,
+        "sense_logic_valid_ps": 704.9999999999983,
+        "clock_to_DL100mV_ps": 269.99999999999955,
+        "sense_enable_to_edge_ps": 171.67871491031704,
+        "output_register_clock_Q_ps": 85.57728107781415
+      },
+      {
+        "operation": 21,
+        "bit": 2,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 199.8965967367846,
+        "output_register_clock_Q_ps": 53.95373118617641
+      },
+      {
+        "operation": 21,
+        "bit": 3,
+        "sense_logic_valid_ps": 704.9999999999983,
+        "clock_to_DL100mV_ps": 275.00000000000216,
+        "sense_enable_to_edge_ps": 171.8191582447085,
+        "output_register_clock_Q_ps": 85.5772999397324
+      },
+      {
+        "operation": 21,
+        "bit": 4,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 199.59688359552473,
+        "output_register_clock_Q_ps": 53.95259724595647
+      },
+      {
+        "operation": 21,
+        "bit": 5,
+        "sense_logic_valid_ps": 704.9999999999983,
+        "clock_to_DL100mV_ps": 275.00000000000216,
+        "sense_enable_to_edge_ps": 171.34677867251767,
+        "output_register_clock_Q_ps": 85.5772726501236
+      },
+      {
+        "operation": 21,
+        "bit": 6,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 289.99999999999915,
+        "sense_enable_to_edge_ps": 199.88082714941712,
+        "output_register_clock_Q_ps": 53.953634333634426
+      },
+      {
+        "operation": 21,
+        "bit": 7,
+        "sense_logic_valid_ps": 699.9999999999993,
+        "clock_to_DL100mV_ps": 295.0000000000017,
+        "sense_enable_to_edge_ps": 170.3142442683857,
+        "output_register_clock_Q_ps": 85.57681983225152
+      },
+      {
+        "operation": 23,
+        "bit": 0,
+        "sense_logic_valid_ps": 720.0000000000024,
+        "clock_to_DL100mV_ps": 320.0000000000003,
+        "sense_enable_to_edge_ps": 187.0358557863726,
+        "output_register_clock_Q_ps": 85.58274429737622
+      },
+      {
+        "operation": 23,
+        "bit": 1,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 200.6504673333852,
+        "output_register_clock_Q_ps": 53.95220741480955
+      },
+      {
+        "operation": 23,
+        "bit": 2,
+        "sense_logic_valid_ps": 705.0000000000018,
+        "clock_to_DL100mV_ps": 274.9999999999986,
+        "sense_enable_to_edge_ps": 172.74783974216433,
+        "output_register_clock_Q_ps": 85.58230768449704
+      },
+      {
+        "operation": 23,
+        "bit": 3,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 200.1864626204609,
+        "output_register_clock_Q_ps": 53.9503163417514
+      },
+      {
+        "operation": 23,
+        "bit": 4,
+        "sense_logic_valid_ps": 705.0000000000018,
+        "clock_to_DL100mV_ps": 279.9999999999976,
+        "sense_enable_to_edge_ps": 172.50661155012935,
+        "output_register_clock_Q_ps": 85.5822874343275
+      },
+      {
+        "operation": 23,
+        "bit": 5,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 289.99999999999915,
+        "sense_enable_to_edge_ps": 200.14900423073044,
+        "output_register_clock_Q_ps": 53.9501510378777
+      },
+      {
+        "operation": 23,
+        "bit": 6,
+        "sense_logic_valid_ps": 705.0000000000018,
+        "clock_to_DL100mV_ps": 279.9999999999976,
+        "sense_enable_to_edge_ps": 172.16970065037117,
+        "output_register_clock_Q_ps": 85.58228821081215
+      },
+      {
+        "operation": 23,
+        "bit": 7,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 304.9999999999997,
+        "sense_enable_to_edge_ps": 199.69787508705338,
+        "output_register_clock_Q_ps": 53.948328031111714
+      },
+      {
+        "operation": 25,
+        "bit": 0,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 290.00000000000273,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 1,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 2,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 275.00000000000216,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 3,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 4,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 280.00000000000114,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 5,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 6,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 280.00000000000114,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 7,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 295.0000000000017,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 27,
+        "bit": 0,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 315.00000000000125,
+        "sense_enable_to_edge_ps": 199.74202526298455,
+        "output_register_clock_Q_ps": 53.950270484342866
+      },
+      {
+        "operation": 27,
+        "bit": 1,
+        "sense_logic_valid_ps": 705.0000000000018,
+        "clock_to_DL100mV_ps": 274.9999999999986,
+        "sense_enable_to_edge_ps": 171.41782861367304,
+        "output_register_clock_Q_ps": 85.58745055484707
+      },
+      {
+        "operation": 27,
+        "bit": 2,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 289.99999999999915,
+        "sense_enable_to_edge_ps": 199.10721686387177,
+        "output_register_clock_Q_ps": 53.947507172175335
+      },
+      {
+        "operation": 27,
+        "bit": 3,
+        "sense_logic_valid_ps": 705.0000000000018,
+        "clock_to_DL100mV_ps": 280.00000000000114,
+        "sense_enable_to_edge_ps": 171.40748969016016,
+        "output_register_clock_Q_ps": 85.58745055484707
+      },
+      {
+        "operation": 27,
+        "bit": 4,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 289.99999999999915,
+        "sense_enable_to_edge_ps": 198.85976267015636,
+        "output_register_clock_Q_ps": 53.946692216978676
+      },
+      {
+        "operation": 27,
+        "bit": 5,
+        "sense_logic_valid_ps": 705.0000000000018,
+        "clock_to_DL100mV_ps": 280.00000000000114,
+        "sense_enable_to_edge_ps": 170.97804466083787,
+        "output_register_clock_Q_ps": 85.5874903270788
+      },
+      {
+        "operation": 27,
+        "bit": 6,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 289.99999999999915,
+        "sense_enable_to_edge_ps": 199.06195339543174,
+        "output_register_clock_Q_ps": 53.947326092622205
+      },
+      {
+        "operation": 27,
+        "bit": 7,
+        "sense_logic_valid_ps": 705.0000000000018,
+        "clock_to_DL100mV_ps": 300.0000000000007,
+        "sense_enable_to_edge_ps": 170.38047079271777,
+        "output_register_clock_Q_ps": 85.58751812283205
+      },
+      {
+        "operation": 29,
+        "bit": 0,
+        "sense_logic_valid_ps": 715.0000000000034,
+        "clock_to_DL100mV_ps": 309.99999999999875,
+        "sense_enable_to_edge_ps": 181.0426626085929,
+        "output_register_clock_Q_ps": 85.57755801519562
+      },
+      {
+        "operation": 29,
+        "bit": 1,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 199.02335293245287,
+        "output_register_clock_Q_ps": 53.95046421616456
+      },
+      {
+        "operation": 29,
+        "bit": 2,
+        "sense_logic_valid_ps": 704.9999999999983,
+        "clock_to_DL100mV_ps": 275.00000000000216,
+        "sense_enable_to_edge_ps": 170.75091071622182,
+        "output_register_clock_Q_ps": 85.57729817415094
+      },
+      {
+        "operation": 29,
+        "bit": 3,
+        "sense_logic_valid_ps": 760.0000000000016,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 198.59854649856544,
+        "output_register_clock_Q_ps": 53.948788715814544
+      },
+      {
+        "operation": 29,
+        "bit": 4,
+        "sense_logic_valid_ps": 704.9999999999983,
+        "clock_to_DL100mV_ps": 280.00000000000114,
+        "sense_enable_to_edge_ps": 170.5495478257498,
+        "output_register_clock_Q_ps": 85.57731773169763
+      },
+      {
+        "operation": 29,
+        "bit": 5,
+        "sense_logic_valid_ps": 760.0000000000016,
+        "clock_to_DL100mV_ps": 285.0000000000001,
+        "sense_enable_to_edge_ps": 198.55784730276525,
+        "output_register_clock_Q_ps": 53.9483635793232
+      },
+      {
+        "operation": 29,
+        "bit": 6,
+        "sense_logic_valid_ps": 699.9999999999993,
+        "clock_to_DL100mV_ps": 280.00000000000114,
+        "sense_enable_to_edge_ps": 170.28658190549294,
+        "output_register_clock_Q_ps": 85.57729817415094
+      },
+      {
+        "operation": 29,
+        "bit": 7,
+        "sense_logic_valid_ps": 760.0000000000016,
+        "clock_to_DL100mV_ps": 295.0000000000017,
+        "sense_enable_to_edge_ps": 198.15149542647902,
+        "output_register_clock_Q_ps": 53.94664629564261
+      },
+      {
+        "operation": 31,
+        "bit": 0,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 314.9999999999977,
+        "sense_enable_to_edge_ps": 199.69116032490973,
+        "output_register_clock_Q_ps": 53.99635389981228
+      },
+      {
+        "operation": 31,
+        "bit": 1,
+        "sense_logic_valid_ps": 705.0000000000055,
+        "clock_to_DL100mV_ps": 274.9999999999986,
+        "sense_enable_to_edge_ps": 171.16860772533414,
+        "output_register_clock_Q_ps": 85.45595575640164
+      },
+      {
+        "operation": 31,
+        "bit": 2,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 289.99999999999915,
+        "sense_enable_to_edge_ps": 199.13521654278497,
+        "output_register_clock_Q_ps": 53.99453591533643
+      },
+      {
+        "operation": 31,
+        "bit": 3,
+        "sense_logic_valid_ps": 705.0000000000055,
+        "clock_to_DL100mV_ps": 279.99999999999403,
+        "sense_enable_to_edge_ps": 171.22105685249466,
+        "output_register_clock_Q_ps": 85.45595436719111
+      },
+      {
+        "operation": 31,
+        "bit": 4,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 289.99999999999915,
+        "sense_enable_to_edge_ps": 198.87987446126886,
+        "output_register_clock_Q_ps": 53.99354219702701
+      },
+      {
+        "operation": 31,
+        "bit": 5,
+        "sense_logic_valid_ps": 705.0000000000055,
+        "clock_to_DL100mV_ps": 279.99999999999403,
+        "sense_enable_to_edge_ps": 170.80781669763866,
+        "output_register_clock_Q_ps": 85.45596061863847
+      },
+      {
+        "operation": 31,
+        "bit": 6,
+        "sense_logic_valid_ps": 765.0000000000006,
+        "clock_to_DL100mV_ps": 289.99999999999915,
+        "sense_enable_to_edge_ps": 198.72670094901622,
+        "output_register_clock_Q_ps": 53.992669339912425
+      },
+      {
+        "operation": 31,
+        "bit": 7,
+        "sense_logic_valid_ps": 705.0000000000055,
+        "clock_to_DL100mV_ps": 299.99999999999716,
+        "sense_enable_to_edge_ps": 170.3972902316758,
+        "output_register_clock_Q_ps": 85.45597589996135
+      }
+    ],
+    "wordline": [
+      {
+        "operation": 0,
+        "rise_ps": 195.03952682707927,
+        "fall_after_negative_clock_ps": 166.5027456165018
+      },
+      {
+        "operation": 1,
+        "rise_ps": 192.15098397142637,
+        "fall_after_negative_clock_ps": 166.16515795743103
+      },
+      {
+        "operation": 2,
+        "rise_ps": 192.16291883189652,
+        "fall_after_negative_clock_ps": 166.81320975638147
+      },
+      {
+        "operation": 3,
+        "rise_ps": 192.1675555797222,
+        "fall_after_negative_clock_ps": 166.43320003439666
+      },
+      {
+        "operation": 4,
+        "rise_ps": 192.1605978739036,
+        "fall_after_negative_clock_ps": 166.8516475707067
+      },
+      {
+        "operation": 5,
+        "rise_ps": 192.17639785851847,
+        "fall_after_negative_clock_ps": 166.36533036333122
+      },
+      {
+        "operation": 6,
+        "rise_ps": 192.2508287935347,
+        "fall_after_negative_clock_ps": 167.00677068923397
+      },
+      {
+        "operation": 7,
+        "rise_ps": 192.183353877569,
+        "fall_after_negative_clock_ps": 166.5079464379442
+      },
+      {
+        "operation": 16,
+        "rise_ps": 215.95065507174382,
+        "fall_after_negative_clock_ps": 166.59146057927288
+      },
+      {
+        "operation": 17,
+        "rise_ps": 192.19621474579895,
+        "fall_after_negative_clock_ps": 166.50145459039223
+      },
+      {
+        "operation": 18,
+        "rise_ps": 192.15505363038687,
+        "fall_after_negative_clock_ps": 166.77324105207703
+      },
+      {
+        "operation": 19,
+        "rise_ps": 192.17715454513495,
+        "fall_after_negative_clock_ps": 166.48358832955523
+      },
+      {
+        "operation": 20,
+        "rise_ps": 192.1410532300598,
+        "fall_after_negative_clock_ps": 167.05799235650431
+      },
+      {
+        "operation": 21,
+        "rise_ps": 192.17122012201315,
+        "fall_after_negative_clock_ps": 166.597079263056
+      },
+      {
+        "operation": 22,
+        "rise_ps": 192.25898343811565,
+        "fall_after_negative_clock_ps": 167.03741048994658
+      },
+      {
+        "operation": 23,
+        "rise_ps": 192.1672494451947,
+        "fall_after_negative_clock_ps": 166.4824236433411
+      }
+    ],
+    "column": [
+      {
+        "operation": 0,
+        "delay_ps": null
+      },
+      {
+        "operation": 2,
+        "delay_ps": 220.8766547818959
+      },
+      {
+        "operation": 8,
+        "delay_ps": 214.07517563674716
+      },
+      {
+        "operation": 10,
+        "delay_ps": 221.07486226367178
+      },
+      {
+        "operation": 16,
+        "delay_ps": 213.9893782403135
+      },
+      {
+        "operation": 18,
+        "delay_ps": 220.9766369352124
+      },
+      {
+        "operation": 24,
+        "delay_ps": 214.08045322636937
+      },
+      {
+        "operation": 26,
+        "delay_ps": 221.06572860819185
+      }
+    ],
+    "representative_cell": [
+      {
+        "kind": "write",
+        "phase": 0,
+        "start_ns": 2.0,
+        "expected": 0
+      },
+      {
+        "kind": "read",
+        "phase": 0,
+        "start_ns": 3.0,
+        "expected": 0,
+        "Vread_V": 0.1347405
+      },
+      {
+        "kind": "write",
+        "phase": 1,
+        "start_ns": 18.0,
+        "expected": 1,
+        "crossing_ps": 469.99999999999886,
+        "falling_node_50pct_ps": 449.9999999999993
+      },
+      {
+        "kind": "read",
+        "phase": 1,
+        "start_ns": 19.0,
+        "expected": 1,
+        "Vread_V": 0.13513617
+      }
+    ],
+    "clock_Q_below_100ps": true
+  },
+  "schematic": {
+    "status": "PASS",
+    "operations": 32,
+    "core_checks": 1568,
+    "core_failures": 0,
+    "registered_checks": 128,
+    "registered_failures": 0,
+    "failures": [],
+    "mean_power_uW": 226.53623199999998,
+    "column_transition_ps": 207.09081532179852,
+    "clock_to_WL_ps": 198.91410752051542,
+    "clock_fall_to_far_WL_fall_ps": 145.63148058810427,
+    "clock_to_sense_valid_ps": 755.0000000000025,
+    "clock_to_DL100mV_ps": 230.00000000000398,
+    "sense_enable_to_output_edge_ps": 190.45569441386277,
+    "output_register_clock_Q_ps": 85.5857786291967,
+    "Vread_V": 0.11424208,
+    "write_crossing_ps": 355.00000000000045,
+    "falling_cell_node_50pct_ps": 349.99999999999784,
+    "precharge_95pct_ps": 150.00000000000458,
+    "precharge_not_reached_count": 0,
+    "precharge_observation_window_ps": 335,
+    "reads": [
+      {
+        "operation": 1,
+        "bit": 0,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 229.99999999999997,
+        "sense_enable_to_edge_ps": 163.70615958137412,
+        "output_register_clock_Q_ps": 85.47157282961226
+      },
+      {
+        "operation": 1,
+        "bit": 1,
+        "sense_logic_valid_ps": 459.99999999999994,
+        "clock_to_DL100mV_ps": 229.99999999999997,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 1,
+        "bit": 2,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 229.99999999999997,
+        "sense_enable_to_edge_ps": 163.70689349497735,
+        "output_register_clock_Q_ps": 85.47157345906342
+      },
+      {
+        "operation": 1,
+        "bit": 3,
+        "sense_logic_valid_ps": 459.99999999999994,
+        "clock_to_DL100mV_ps": 229.99999999999997,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 1,
+        "bit": 4,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 229.99999999999997,
+        "sense_enable_to_edge_ps": 163.70757506847633,
+        "output_register_clock_Q_ps": 85.47157345906342
+      },
+      {
+        "operation": 1,
+        "bit": 5,
+        "sense_logic_valid_ps": 459.99999999999994,
+        "clock_to_DL100mV_ps": 229.99999999999997,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 1,
+        "bit": 6,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 229.99999999999997,
+        "sense_enable_to_edge_ps": 163.7081521272198,
+        "output_register_clock_Q_ps": 85.47157345906342
+      },
+      {
+        "operation": 1,
+        "bit": 7,
+        "sense_logic_valid_ps": 459.99999999999994,
+        "clock_to_DL100mV_ps": 229.99999999999997,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 3,
+        "bit": 0,
+        "sense_logic_valid_ps": 754.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.43450377993432,
+        "output_register_clock_Q_ps": 53.915976859577164
+      },
+      {
+        "operation": 3,
+        "bit": 1,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.70029262851025,
+        "output_register_clock_Q_ps": 85.5857786291967
+      },
+      {
+        "operation": 3,
+        "bit": 2,
+        "sense_logic_valid_ps": 754.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.43378419161115,
+        "output_register_clock_Q_ps": 53.91597470541676
+      },
+      {
+        "operation": 3,
+        "bit": 3,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.69853630761,
+        "output_register_clock_Q_ps": 85.5857786291967
+      },
+      {
+        "operation": 3,
+        "bit": 4,
+        "sense_logic_valid_ps": 754.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.43399338802246,
+        "output_register_clock_Q_ps": 53.91597524395664
+      },
+      {
+        "operation": 3,
+        "bit": 5,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.69802548698152,
+        "output_register_clock_Q_ps": 85.5857786291967
+      },
+      {
+        "operation": 3,
+        "bit": 6,
+        "sense_logic_valid_ps": 754.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.43377733271194,
+        "output_register_clock_Q_ps": 53.91597470541676
+      },
+      {
+        "operation": 3,
+        "bit": 7,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.69976222627614,
+        "output_register_clock_Q_ps": 85.5857786291967
+      },
+      {
+        "operation": 5,
+        "bit": 0,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.46851261937266,
+        "output_register_clock_Q_ps": 85.57547184904557
+      },
+      {
+        "operation": 5,
+        "bit": 1,
+        "sense_logic_valid_ps": 755.0000000000008,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.39628246821073,
+        "output_register_clock_Q_ps": 53.920306418378416
+      },
+      {
+        "operation": 5,
+        "bit": 2,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.46850578858252,
+        "output_register_clock_Q_ps": 85.57547184904557
+      },
+      {
+        "operation": 5,
+        "bit": 3,
+        "sense_logic_valid_ps": 755.0000000000008,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.39653256507748,
+        "output_register_clock_Q_ps": 53.92030695711014
+      },
+      {
+        "operation": 5,
+        "bit": 4,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.4685066531869,
+        "output_register_clock_Q_ps": 85.57547184904557
+      },
+      {
+        "operation": 5,
+        "bit": 5,
+        "sense_logic_valid_ps": 755.0000000000008,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.39653256507748,
+        "output_register_clock_Q_ps": 53.92030695711014
+      },
+      {
+        "operation": 5,
+        "bit": 6,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.46850578858252,
+        "output_register_clock_Q_ps": 85.57547184904557
+      },
+      {
+        "operation": 5,
+        "bit": 7,
+        "sense_logic_valid_ps": 755.0000000000008,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.3967346457204,
+        "output_register_clock_Q_ps": 53.920307612177254
+      },
+      {
+        "operation": 7,
+        "bit": 0,
+        "sense_logic_valid_ps": 755.0000000000008,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.4047387630493,
+        "output_register_clock_Q_ps": 53.917268404429564
+      },
+      {
+        "operation": 7,
+        "bit": 1,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.48116192090245,
+        "output_register_clock_Q_ps": 85.58105678275041
+      },
+      {
+        "operation": 7,
+        "bit": 2,
+        "sense_logic_valid_ps": 755.0000000000008,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.4047387630493,
+        "output_register_clock_Q_ps": 53.917268404429564
+      },
+      {
+        "operation": 7,
+        "bit": 3,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.48116362856402,
+        "output_register_clock_Q_ps": 85.58105678275041
+      },
+      {
+        "operation": 7,
+        "bit": 4,
+        "sense_logic_valid_ps": 755.0000000000008,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.4047387630493,
+        "output_register_clock_Q_ps": 53.917268404429564
+      },
+      {
+        "operation": 7,
+        "bit": 5,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.48116362856402,
+        "output_register_clock_Q_ps": 85.58105678275041
+      },
+      {
+        "operation": 7,
+        "bit": 6,
+        "sense_logic_valid_ps": 755.0000000000008,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.4047387630493,
+        "output_register_clock_Q_ps": 53.917268404429564
+      },
+      {
+        "operation": 7,
+        "bit": 7,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.48116362856402,
+        "output_register_clock_Q_ps": 85.58105678275041
+      },
+      {
+        "operation": 9,
+        "bit": 0,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 1,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 2,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 3,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 4,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 5,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 6,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 9,
+        "bit": 7,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 11,
+        "bit": 0,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.68188116121019,
+        "output_register_clock_Q_ps": 85.58546330496597
+      },
+      {
+        "operation": 11,
+        "bit": 1,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.45516303415633,
+        "output_register_clock_Q_ps": 53.91964782196901
+      },
+      {
+        "operation": 11,
+        "bit": 2,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.68188116121019,
+        "output_register_clock_Q_ps": 85.58546330496597
+      },
+      {
+        "operation": 11,
+        "bit": 3,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.45516303415633,
+        "output_register_clock_Q_ps": 53.91964782196901
+      },
+      {
+        "operation": 11,
+        "bit": 4,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.68188116121019,
+        "output_register_clock_Q_ps": 85.58546330496597
+      },
+      {
+        "operation": 11,
+        "bit": 5,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.45516303415633,
+        "output_register_clock_Q_ps": 53.91964782196901
+      },
+      {
+        "operation": 11,
+        "bit": 6,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.68188116121019,
+        "output_register_clock_Q_ps": 85.58546330496597
+      },
+      {
+        "operation": 11,
+        "bit": 7,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.45516303415633,
+        "output_register_clock_Q_ps": 53.91964782196901
+      },
+      {
+        "operation": 13,
+        "bit": 0,
+        "sense_logic_valid_ps": 755.0000000000008,
+        "clock_to_DL100mV_ps": 230.00000000000222,
+        "sense_enable_to_edge_ps": 190.41568477911795,
+        "output_register_clock_Q_ps": 53.87154318474785
+      },
+      {
+        "operation": 13,
+        "bit": 1,
+        "sense_logic_valid_ps": 694.9999999999985,
+        "clock_to_DL100mV_ps": 230.00000000000222,
+        "sense_enable_to_edge_ps": 162.48182623886308,
+        "output_register_clock_Q_ps": 85.46093194568272
+      },
+      {
+        "operation": 13,
+        "bit": 2,
+        "sense_logic_valid_ps": 755.0000000000008,
+        "clock_to_DL100mV_ps": 230.00000000000222,
+        "sense_enable_to_edge_ps": 190.41568477911795,
+        "output_register_clock_Q_ps": 53.87154318474785
+      },
+      {
+        "operation": 13,
+        "bit": 3,
+        "sense_logic_valid_ps": 694.9999999999985,
+        "clock_to_DL100mV_ps": 230.00000000000222,
+        "sense_enable_to_edge_ps": 162.48182623886308,
+        "output_register_clock_Q_ps": 85.46093194568272
+      },
+      {
+        "operation": 13,
+        "bit": 4,
+        "sense_logic_valid_ps": 755.0000000000008,
+        "clock_to_DL100mV_ps": 230.00000000000222,
+        "sense_enable_to_edge_ps": 190.41568477911795,
+        "output_register_clock_Q_ps": 53.87154318474785
+      },
+      {
+        "operation": 13,
+        "bit": 5,
+        "sense_logic_valid_ps": 694.9999999999985,
+        "clock_to_DL100mV_ps": 230.00000000000222,
+        "sense_enable_to_edge_ps": 162.48182623886308,
+        "output_register_clock_Q_ps": 85.46093194568272
+      },
+      {
+        "operation": 13,
+        "bit": 6,
+        "sense_logic_valid_ps": 755.0000000000008,
+        "clock_to_DL100mV_ps": 230.00000000000222,
+        "sense_enable_to_edge_ps": 190.41568477911795,
+        "output_register_clock_Q_ps": 53.87154318474785
+      },
+      {
+        "operation": 13,
+        "bit": 7,
+        "sense_logic_valid_ps": 694.9999999999985,
+        "clock_to_DL100mV_ps": 230.00000000000222,
+        "sense_enable_to_edge_ps": 162.48182623886308,
+        "output_register_clock_Q_ps": 85.46093194568272
+      },
+      {
+        "operation": 15,
+        "bit": 0,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.50149586485506,
+        "output_register_clock_Q_ps": 85.51058869825212
+      },
+      {
+        "operation": 15,
+        "bit": 1,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.45569441386277,
+        "output_register_clock_Q_ps": 53.83649047837835
+      },
+      {
+        "operation": 15,
+        "bit": 2,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.50149586485506,
+        "output_register_clock_Q_ps": 85.51058869825212
+      },
+      {
+        "operation": 15,
+        "bit": 3,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.45569441386277,
+        "output_register_clock_Q_ps": 53.83649047837835
+      },
+      {
+        "operation": 15,
+        "bit": 4,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.50149586485506,
+        "output_register_clock_Q_ps": 85.51058869825212
+      },
+      {
+        "operation": 15,
+        "bit": 5,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.45569441386277,
+        "output_register_clock_Q_ps": 53.83649047837835
+      },
+      {
+        "operation": 15,
+        "bit": 6,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.50149586485506,
+        "output_register_clock_Q_ps": 85.51058869825212
+      },
+      {
+        "operation": 15,
+        "bit": 7,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.45569441386277,
+        "output_register_clock_Q_ps": 53.83649047837835
+      },
+      {
+        "operation": 17,
+        "bit": 0,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.3856495536681,
+        "output_register_clock_Q_ps": 53.91783854952337
+      },
+      {
+        "operation": 17,
+        "bit": 1,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.3920484861253,
+        "output_register_clock_Q_ps": 85.5775532744758
+      },
+      {
+        "operation": 17,
+        "bit": 2,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.3856495536681,
+        "output_register_clock_Q_ps": 53.91783854952337
+      },
+      {
+        "operation": 17,
+        "bit": 3,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.3920484861253,
+        "output_register_clock_Q_ps": 85.5775532744758
+      },
+      {
+        "operation": 17,
+        "bit": 4,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.3856495536681,
+        "output_register_clock_Q_ps": 53.91783854952337
+      },
+      {
+        "operation": 17,
+        "bit": 5,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.3920484861253,
+        "output_register_clock_Q_ps": 85.5775532744758
+      },
+      {
+        "operation": 17,
+        "bit": 6,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.3856495536681,
+        "output_register_clock_Q_ps": 53.91783854952337
+      },
+      {
+        "operation": 17,
+        "bit": 7,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.3920484861253,
+        "output_register_clock_Q_ps": 85.5775532744758
+      },
+      {
+        "operation": 19,
+        "bit": 0,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.41369534356963,
+        "output_register_clock_Q_ps": 85.5854210029463
+      },
+      {
+        "operation": 19,
+        "bit": 1,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.40424285575185,
+        "output_register_clock_Q_ps": 53.918714780127885
+      },
+      {
+        "operation": 19,
+        "bit": 2,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.41369534356963,
+        "output_register_clock_Q_ps": 85.5854210029463
+      },
+      {
+        "operation": 19,
+        "bit": 3,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.40424285575185,
+        "output_register_clock_Q_ps": 53.918714780127885
+      },
+      {
+        "operation": 19,
+        "bit": 4,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.41369534356963,
+        "output_register_clock_Q_ps": 85.5854210029463
+      },
+      {
+        "operation": 19,
+        "bit": 5,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.40424285575185,
+        "output_register_clock_Q_ps": 53.918714780127885
+      },
+      {
+        "operation": 19,
+        "bit": 6,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.41369534356963,
+        "output_register_clock_Q_ps": 85.5854210029463
+      },
+      {
+        "operation": 19,
+        "bit": 7,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.40424285575185,
+        "output_register_clock_Q_ps": 53.918714780127885
+      },
+      {
+        "operation": 21,
+        "bit": 0,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.39262061465877,
+        "output_register_clock_Q_ps": 53.91832875383784
+      },
+      {
+        "operation": 21,
+        "bit": 1,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.39432751638049,
+        "output_register_clock_Q_ps": 85.5756146782376
+      },
+      {
+        "operation": 21,
+        "bit": 2,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.39262061465877,
+        "output_register_clock_Q_ps": 53.91832875383784
+      },
+      {
+        "operation": 21,
+        "bit": 3,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.39432751638049,
+        "output_register_clock_Q_ps": 85.5756146782376
+      },
+      {
+        "operation": 21,
+        "bit": 4,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.39262061465877,
+        "output_register_clock_Q_ps": 53.91832875383784
+      },
+      {
+        "operation": 21,
+        "bit": 5,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.39432751638049,
+        "output_register_clock_Q_ps": 85.5756146782376
+      },
+      {
+        "operation": 21,
+        "bit": 6,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.39262061465877,
+        "output_register_clock_Q_ps": 53.91832875383784
+      },
+      {
+        "operation": 21,
+        "bit": 7,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.39432751638049,
+        "output_register_clock_Q_ps": 85.5756146782376
+      },
+      {
+        "operation": 23,
+        "bit": 0,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.41112179866178,
+        "output_register_clock_Q_ps": 85.58124053191918
+      },
+      {
+        "operation": 23,
+        "bit": 1,
+        "sense_logic_valid_ps": 755.0000000000025,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.41064090860203,
+        "output_register_clock_Q_ps": 53.91825833308417
+      },
+      {
+        "operation": 23,
+        "bit": 2,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.41112179866178,
+        "output_register_clock_Q_ps": 85.58124053191918
+      },
+      {
+        "operation": 23,
+        "bit": 3,
+        "sense_logic_valid_ps": 755.0000000000025,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.41064090860203,
+        "output_register_clock_Q_ps": 53.91825833308417
+      },
+      {
+        "operation": 23,
+        "bit": 4,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.41112179866178,
+        "output_register_clock_Q_ps": 85.58124053191918
+      },
+      {
+        "operation": 23,
+        "bit": 5,
+        "sense_logic_valid_ps": 755.0000000000025,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.41064090860203,
+        "output_register_clock_Q_ps": 53.91825833308417
+      },
+      {
+        "operation": 23,
+        "bit": 6,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.41112179866178,
+        "output_register_clock_Q_ps": 85.58124053191918
+      },
+      {
+        "operation": 23,
+        "bit": 7,
+        "sense_logic_valid_ps": 755.0000000000025,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.41064090860203,
+        "output_register_clock_Q_ps": 53.91825833308417
+      },
+      {
+        "operation": 25,
+        "bit": 0,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 1,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 2,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 3,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 4,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 5,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 6,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 25,
+        "bit": 7,
+        "sense_logic_valid_ps": 464.9999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": null,
+        "output_register_clock_Q_ps": null
+      },
+      {
+        "operation": 27,
+        "bit": 0,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.4442200510269,
+        "output_register_clock_Q_ps": 53.91925045000434
+      },
+      {
+        "operation": 27,
+        "bit": 1,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.63060577450204,
+        "output_register_clock_Q_ps": 85.58539544703336
+      },
+      {
+        "operation": 27,
+        "bit": 2,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.4442200510269,
+        "output_register_clock_Q_ps": 53.91925045000434
+      },
+      {
+        "operation": 27,
+        "bit": 3,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.63060577450204,
+        "output_register_clock_Q_ps": 85.58539544703336
+      },
+      {
+        "operation": 27,
+        "bit": 4,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.4442200510269,
+        "output_register_clock_Q_ps": 53.91925045000434
+      },
+      {
+        "operation": 27,
+        "bit": 5,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.63060577450204,
+        "output_register_clock_Q_ps": 85.58539544703336
+      },
+      {
+        "operation": 27,
+        "bit": 6,
+        "sense_logic_valid_ps": 754.999999999999,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 190.4442200510269,
+        "output_register_clock_Q_ps": 53.91925045000434
+      },
+      {
+        "operation": 27,
+        "bit": 7,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000043,
+        "sense_enable_to_edge_ps": 162.63060577450204,
+        "output_register_clock_Q_ps": 85.58539544703336
+      },
+      {
+        "operation": 29,
+        "bit": 0,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 162.41462341454792,
+        "output_register_clock_Q_ps": 85.5756774883858
+      },
+      {
+        "operation": 29,
+        "bit": 1,
+        "sense_logic_valid_ps": 755.0000000000025,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 190.4199279784352,
+        "output_register_clock_Q_ps": 53.91864263963697
+      },
+      {
+        "operation": 29,
+        "bit": 2,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 162.41462341454792,
+        "output_register_clock_Q_ps": 85.5756774883858
+      },
+      {
+        "operation": 29,
+        "bit": 3,
+        "sense_logic_valid_ps": 755.0000000000025,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 190.4199279784352,
+        "output_register_clock_Q_ps": 53.91864263963697
+      },
+      {
+        "operation": 29,
+        "bit": 4,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 162.41462341454792,
+        "output_register_clock_Q_ps": 85.5756774883858
+      },
+      {
+        "operation": 29,
+        "bit": 5,
+        "sense_logic_valid_ps": 755.0000000000025,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 190.4199279784352,
+        "output_register_clock_Q_ps": 53.91864263963697
+      },
+      {
+        "operation": 29,
+        "bit": 6,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 162.41462341454792,
+        "output_register_clock_Q_ps": 85.5756774883858
+      },
+      {
+        "operation": 29,
+        "bit": 7,
+        "sense_logic_valid_ps": 755.0000000000025,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 190.4199279784352,
+        "output_register_clock_Q_ps": 53.91864263963697
+      },
+      {
+        "operation": 31,
+        "bit": 0,
+        "sense_logic_valid_ps": 755.0000000000025,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 190.4212993383888,
+        "output_register_clock_Q_ps": 53.965513577821866
+      },
+      {
+        "operation": 31,
+        "bit": 1,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 162.43187559517423,
+        "output_register_clock_Q_ps": 85.48107674667449
+      },
+      {
+        "operation": 31,
+        "bit": 2,
+        "sense_logic_valid_ps": 755.0000000000025,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 190.4212993383888,
+        "output_register_clock_Q_ps": 53.965513577821866
+      },
+      {
+        "operation": 31,
+        "bit": 3,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 162.43187559517423,
+        "output_register_clock_Q_ps": 85.48107674667449
+      },
+      {
+        "operation": 31,
+        "bit": 4,
+        "sense_logic_valid_ps": 755.0000000000025,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 190.4212993383888,
+        "output_register_clock_Q_ps": 53.965513577821866
+      },
+      {
+        "operation": 31,
+        "bit": 5,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 162.43187559517423,
+        "output_register_clock_Q_ps": 85.48107674667449
+      },
+      {
+        "operation": 31,
+        "bit": 6,
+        "sense_logic_valid_ps": 755.0000000000025,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 190.4212993383888,
+        "output_register_clock_Q_ps": 53.965513577821866
+      },
+      {
+        "operation": 31,
+        "bit": 7,
+        "sense_logic_valid_ps": 695.0000000000002,
+        "clock_to_DL100mV_ps": 230.00000000000398,
+        "sense_enable_to_edge_ps": 162.43187559517423,
+        "output_register_clock_Q_ps": 85.48107674667449
+      }
+    ],
+    "wordline": [
+      {
+        "operation": 0,
+        "rise_ps": 177.85237825865164,
+        "fall_after_negative_clock_ps": 145.63148058810427
+      },
+      {
+        "operation": 1,
+        "rise_ps": 175.2047424107932,
+        "fall_after_negative_clock_ps": 145.6043189824623
+      },
+      {
+        "operation": 2,
+        "rise_ps": 175.11882588754534,
+        "fall_after_negative_clock_ps": 145.3391782990625
+      },
+      {
+        "operation": 3,
+        "rise_ps": 175.23130642173967,
+        "fall_after_negative_clock_ps": 145.570362930739
+      },
+      {
+        "operation": 4,
+        "rise_ps": 175.2404280531854,
+        "fall_after_negative_clock_ps": 145.3356942544657
+      },
+      {
+        "operation": 5,
+        "rise_ps": 175.22380578055774,
+        "fall_after_negative_clock_ps": 145.55584193224826
+      },
+      {
+        "operation": 6,
+        "rise_ps": 175.21936362055612,
+        "fall_after_negative_clock_ps": 145.58666324027848
+      },
+      {
+        "operation": 7,
+        "rise_ps": 175.21790156155424,
+        "fall_after_negative_clock_ps": 145.551367436477
+      },
+      {
+        "operation": 16,
+        "rise_ps": 198.91410752051542,
+        "fall_after_negative_clock_ps": 145.61481030377266
+      },
+      {
+        "operation": 17,
+        "rise_ps": 175.22972326822384,
+        "fall_after_negative_clock_ps": 145.5873955207494
+      },
+      {
+        "operation": 18,
+        "rise_ps": 175.2229978849762,
+        "fall_after_negative_clock_ps": 145.35712379033328
+      },
+      {
+        "operation": 19,
+        "rise_ps": 175.17801372162012,
+        "fall_after_negative_clock_ps": 145.5536753539164
+      },
+      {
+        "operation": 20,
+        "rise_ps": 175.2320343435514,
+        "fall_after_negative_clock_ps": 145.60634778828074
+      },
+      {
+        "operation": 21,
+        "rise_ps": 175.21737467196274,
+        "fall_after_negative_clock_ps": 145.54992184662652
+      },
+      {
+        "operation": 22,
+        "rise_ps": 175.24719660091037,
+        "fall_after_negative_clock_ps": 145.5846470034423
+      },
+      {
+        "operation": 23,
+        "rise_ps": 175.21384851625754,
+        "fall_after_negative_clock_ps": 145.5743453842473
+      }
+    ],
+    "column": [
+      {
+        "operation": 0,
+        "delay_ps": null
+      },
+      {
+        "operation": 2,
+        "delay_ps": 207.09081532179852
+      },
+      {
+        "operation": 8,
+        "delay_ps": 202.75209968554896
+      },
+      {
+        "operation": 10,
+        "delay_ps": 206.97522242825352
+      },
+      {
+        "operation": 16,
+        "delay_ps": 202.5700177508014
+      },
+      {
+        "operation": 18,
+        "delay_ps": 206.9797068686121
+      },
+      {
+        "operation": 24,
+        "delay_ps": 202.73733967829344
+      },
+      {
+        "operation": 26,
+        "delay_ps": 206.97357717195786
+      }
+    ],
+    "representative_cell": [
+      {
+        "kind": "write",
+        "phase": 0,
+        "start_ns": 2.0,
+        "expected": 0
+      },
+      {
+        "kind": "read",
+        "phase": 0,
+        "start_ns": 3.0,
+        "expected": 0,
+        "Vread_V": 0.11364201
+      },
+      {
+        "kind": "write",
+        "phase": 1,
+        "start_ns": 18.0,
+        "expected": 1,
+        "crossing_ps": 355.00000000000045,
+        "falling_node_50pct_ps": 349.99999999999784
+      },
+      {
+        "kind": "read",
+        "phase": 1,
+        "start_ns": 19.0,
+        "expected": 1,
+        "Vread_V": 0.11424208
+      }
+    ],
+    "clock_Q_below_100ps": true
+  }
+}

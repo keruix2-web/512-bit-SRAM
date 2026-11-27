@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "checks": 74,
+  "failures": [],
+  "description": "Actual native SRAM_SYSTEM netlist with named-port PEX binding, one write and immediate registered readback."
+}

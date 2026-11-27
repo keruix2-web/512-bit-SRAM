@@ -1,0 +1,6 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='X-2025.06-SP2 linux64' PARAM_COUNT=0
+.TITLE '* register setup/hold conservative tests, 10 ff'
+ tqr              tqf              hi1              lo2             
+ hi3              temper           alter#          
+  8.5353505e-11    8.5696387e-11    7.9323414e-01    1.0329428e-03  
+  7.9304785e-01    2.5000000e+01   1               

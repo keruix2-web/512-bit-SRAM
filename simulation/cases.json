@@ -1,0 +1,161 @@
+{
+  "representative-pex": {
+    "deck": "simulation/representative-pex.sp",
+    "expectations": "simulation/representative-pex.json",
+    "measurements": "results/raw/representative-pex.mt0"
+  },
+  "representative-schematic": {
+    "deck": "simulation/representative-schematic.sp",
+    "expectations": "simulation/representative-schematic.json",
+    "measurements": "results/raw/representative-schematic.mt0"
+  },
+  "native-smoke": {
+    "deck": "simulation/native-smoke.sp",
+    "expectations": "simulation/native-smoke.json",
+    "measurements": "results/raw/native-smoke.mt0"
+  },
+  "coverage-rows00_01": {
+    "deck": "simulation/coverage-rows00_01.sp",
+    "expectations": "simulation/coverage-rows00_01.json",
+    "measurements": "results/raw/coverage-rows00_01.mt0"
+  },
+  "coverage-rows02_03": {
+    "deck": "simulation/coverage-rows02_03.sp",
+    "expectations": "simulation/coverage-rows02_03.json",
+    "measurements": "results/raw/coverage-rows02_03.mt0"
+  },
+  "coverage-rows04_05": {
+    "deck": "simulation/coverage-rows04_05.sp",
+    "expectations": "simulation/coverage-rows04_05.json",
+    "measurements": "results/raw/coverage-rows04_05.mt0"
+  },
+  "coverage-rows06_07": {
+    "deck": "simulation/coverage-rows06_07.sp",
+    "expectations": "simulation/coverage-rows06_07.json",
+    "measurements": "results/raw/coverage-rows06_07.mt0"
+  },
+  "coverage-rows08_09": {
+    "deck": "simulation/coverage-rows08_09.sp",
+    "expectations": "simulation/coverage-rows08_09.json",
+    "measurements": "results/raw/coverage-rows08_09.mt0"
+  },
+  "coverage-rows10_11": {
+    "deck": "simulation/coverage-rows10_11.sp",
+    "expectations": "simulation/coverage-rows10_11.json",
+    "measurements": "results/raw/coverage-rows10_11.mt0"
+  },
+  "coverage-rows12_13": {
+    "deck": "simulation/coverage-rows12_13.sp",
+    "expectations": "simulation/coverage-rows12_13.json",
+    "measurements": "results/raw/coverage-rows12_13.mt0"
+  },
+  "coverage-rows14_15": {
+    "deck": "simulation/coverage-rows14_15.sp",
+    "expectations": "simulation/coverage-rows14_15.json",
+    "measurements": "results/raw/coverage-rows14_15.mt0"
+  },
+  "register-s100h25": {
+    "deck": "simulation/register/s100h25.sp",
+    "measurements": "results/raw/register-s100h25.mt0"
+  },
+  "register-s100h50": {
+    "deck": "simulation/register/s100h50.sp",
+    "measurements": "results/raw/register-s100h50.mt0"
+  },
+  "register-s25h25": {
+    "deck": "simulation/register/s25h25.sp",
+    "measurements": "results/raw/register-s25h25.mt0"
+  },
+  "register-s25h50": {
+    "deck": "simulation/register/s25h50.sp",
+    "measurements": "results/raw/register-s25h50.mt0"
+  },
+  "register-s50h25": {
+    "deck": "simulation/register/s50h25.sp",
+    "measurements": "results/raw/register-s50h25.mt0"
+  },
+  "register-s50h50": {
+    "deck": "simulation/register/s50h50.sp",
+    "measurements": "results/raw/register-s50h50.mt0"
+  },
+  "margin_pex_000": {
+    "deck": "simulation/margin/margin_pex_000.sp",
+    "measurements": "results/raw/margin_pex_000.mt0"
+  },
+  "margin_pex_150": {
+    "deck": "simulation/margin/margin_pex_150.sp",
+    "measurements": "results/raw/margin_pex_150.mt0"
+  },
+  "margin_pex_200": {
+    "deck": "simulation/margin/margin_pex_200.sp",
+    "measurements": "results/raw/margin_pex_200.mt0"
+  },
+  "margin_pex_225": {
+    "deck": "simulation/margin/margin_pex_225.sp",
+    "measurements": "results/raw/margin_pex_225.mt0"
+  },
+  "margin_pex_250": {
+    "deck": "simulation/margin/margin_pex_250.sp",
+    "measurements": "results/raw/margin_pex_250.mt0"
+  },
+  "margin_pex_275": {
+    "deck": "simulation/margin/margin_pex_275.sp",
+    "measurements": "results/raw/margin_pex_275.mt0"
+  },
+  "margin_pex_300": {
+    "deck": "simulation/margin/margin_pex_300.sp",
+    "measurements": "results/raw/margin_pex_300.mt0"
+  },
+  "margin_schematic_000": {
+    "deck": "simulation/margin/margin_schematic_000.sp",
+    "measurements": "results/raw/margin_schematic_000.mt0"
+  },
+  "margin_schematic_150": {
+    "deck": "simulation/margin/margin_schematic_150.sp",
+    "measurements": "results/raw/margin_schematic_150.mt0"
+  },
+  "margin_schematic_200": {
+    "deck": "simulation/margin/margin_schematic_200.sp",
+    "measurements": "results/raw/margin_schematic_200.mt0"
+  },
+  "margin_schematic_225": {
+    "deck": "simulation/margin/margin_schematic_225.sp",
+    "measurements": "results/raw/margin_schematic_225.mt0"
+  },
+  "margin_schematic_250": {
+    "deck": "simulation/margin/margin_schematic_250.sp",
+    "measurements": "results/raw/margin_schematic_250.mt0"
+  },
+  "margin_schematic_275": {
+    "deck": "simulation/margin/margin_schematic_275.sp",
+    "measurements": "results/raw/margin_schematic_275.mt0"
+  },
+  "margin_schematic_300": {
+    "deck": "simulation/margin/margin_schematic_300.sp",
+    "measurements": "results/raw/margin_schematic_300.mt0"
+  },
+  "cell_trip_pex_200": {
+    "deck": "simulation/margin/cell_trip_pex_200.sp",
+    "measurements": "results/raw/cell_trip_pex_200.mt0"
+  },
+  "cell_trip_pex_225": {
+    "deck": "simulation/margin/cell_trip_pex_225.sp",
+    "measurements": "results/raw/cell_trip_pex_225.mt0"
+  },
+  "cell_trip_schematic_200": {
+    "deck": "simulation/margin/cell_trip_schematic_200.sp",
+    "measurements": "results/raw/cell_trip_schematic_200.mt0"
+  },
+  "cell_trip_schematic_225": {
+    "deck": "simulation/margin/cell_trip_schematic_225.sp",
+    "measurements": "results/raw/cell_trip_schematic_225.mt0"
+  },
+  "precharge-pex": {
+    "deck": "simulation/precharge-pex.sp",
+    "measurements": "results/raw/precharge-pex.mt0"
+  },
+  "precharge-schematic": {
+    "deck": "simulation/precharge-schematic.sp",
+    "measurements": "results/raw/precharge-schematic.mt0"
+  }
+}

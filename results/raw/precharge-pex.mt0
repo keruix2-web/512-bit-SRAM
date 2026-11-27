@@ -1,0 +1,8 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='X-2025.06-SP2 linux64' PARAM_COUNT=0
+.TITLE '* sram_core ideal-control functional verification'
+ t95_dl           end_dl           t95_dlb          end_dlb         
+ t95_blx          end_blx          t95_blbx         end_blbx        
+ temper           alter#          
+  3.3145679e-09    7.9945688e-01    3.2466290e-09    7.9951182e-01  
+  3.2561796e-09    7.9959298e-01    3.2294625e-09    7.9961838e-01  
+  2.5000000e+01   1               

@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "completed_cases": 8,
+  "addresses": 64,
+  "cells": 512,
+  "operations": 256,
+  "core_checks": 12544,
+  "registered_checks": 1024,
+  "core_failures": 0,
+  "registered_failures": 0,
+  "cases": {
+    "fixed_cov_rows00_01": {
+      "status": "PASS",
+      "operations": 32,
+      "core_checks": 1568,
+      "core_failures": 0,
+      "registered_checks": 128,
+      "registered_failures": 0,
+      "failures": []
+    },
+    "fixed_cov_rows02_03": {
+      "status": "PASS",
+      "operations": 32,
+      "core_checks": 1568,
+      "core_failures": 0,
+      "registered_checks": 128,
+      "registered_failures": 0,
+      "failures": []
+    },
+    "fixed_cov_rows04_05": {
+      "status": "PASS",
+      "operations": 32,
+      "core_checks": 1568,
+      "core_failures": 0,
+      "registered_checks": 128,
+      "registered_failures": 0,
+      "failures": []
+    },
+    "fixed_cov_rows06_07": {
+      "status": "PASS",
+      "operations": 32,
+      "core_checks": 1568,
+      "core_failures": 0,
+      "registered_checks": 128,
+      "registered_failures": 0,
+      "failures": []
+    },
+    "fixed_cov_rows08_09": {
+      "status": "PASS",
+      "operations": 32,
+      "core_checks": 1568,
+      "core_failures": 0,
+      "registered_checks": 128,
+      "registered_failures": 0,
+      "failures": []
+    },
+    "fixed_cov_rows10_11": {
+      "status": "PASS",
+      "operations": 32,
+      "core_checks": 1568,
+      "core_failures": 0,
+      "registered_checks": 128,
+      "registered_failures": 0,
+      "failures": []
+    },
+    "fixed_cov_rows12_13": {
+      "status": "PASS",
+      "operations": 32,
+      "core_checks": 1568,
+      "core_failures": 0,
+      "registered_checks": 128,
+      "registered_failures": 0,
+      "failures": []
+    },
+    "fixed_cov_rows14_15": {
+      "status": "PASS",
+      "operations": 32,
+      "core_checks": 1568,
+      "core_failures": 0,
+      "registered_checks": 128,
+      "registered_failures": 0,
+      "failures": []
+    }
+  }
+}

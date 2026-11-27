@@ -53,4 +53,52 @@ Tapered column-select buffers and resized decoder stages reduced the representat
 
 Clock and control waveforms are external testbench sources. The functional pass does not establish PVT, mismatch, or static noise-margin qualification. A controlled 500 ps write-low sweep succeeds at a 0.200 V data-line floor and fails at 0.225 V; this does not demonstrate the >30% VDD cell write-margin target. Isolated selected-data-line recovery to 95% VDD is approximately 470 ps, longer than the normal observed precharge interval, so full-rail precharge is not claimed.
 
-This repository contains the project overview and selected figures only. PDK/model files, verification rule decks, proprietary tools, raw design databases, and course documents are not redistributed.
+## Design and simulation files
+
+| Directory | Contents |
+|---|---|
+| `library/ece6130_library/` | Updated editable Cadence library: **109 OA views**, including `SRAM_SYSTEM`, buffered column decoder, registers, and physical core |
+| `netlists/` | Full schematic system, native system bound to PEX, and schematic core netlists |
+| `pex/` | Extracted core netlist and both required RC sidecars |
+| `simulation/` | **37 cases**: representative PEX/schematic runs, native-top smoke test, eight coverage cases, register tests, write-limit and precharge experiments |
+| `results/` | Recorded summaries, raw `.mt0` measurement tables, expected checks, and waveform CSVs |
+| `scripts/` | Cadence setup helper |
+| `images/` | Selected layout, architecture and waveform figures |
+
+### Open the Cadence library
+
+Use your own licensed Cadence environment and installed FreePDK45 libraries. From the repository root:
+
+```sh
+python3 scripts/configure_cadence.py --pdk /path/to/FreePDK45 --cadence-root /path/to/cadence/ic
+virtuoso
+```
+
+The helper creates a local, ignored `cds.lib` and refuses to overwrite an existing one. Open **`ece6130_library / SRAM_SYSTEM / schematic`** for the registered system, or **`SRAM_INTEGRATED / layout`** for the physical core. Legacy `TOP` and `SRAM_CORE` views are reference designs. `SRAM_SYSTEM` includes the input/output registers and final physical wordline inverters exactly once. Use the actual `.SUBCKT` port order; the native system's 32 ports are listed in `results/system_port_order.json`.
+
+### Check the recorded results
+
+Python 3.9+ is sufficient; these checks do not require Cadence or HSPICE:
+
+```sh
+python3 simulation/run.py --check
+python3 simulation/verify_results.py
+```
+
+The verifier independently checks the measurement tables against expected read/write/retention outcomes, the complete address set, register timing schedules, write-limit sweep outcomes, and all 109 OA checksums. The representative and coverage tests check register outputs at **150 ps after capture**. Intentional failing write-limit sweep points are retained as characterization data.
+
+### Run a simulation
+
+Provide your own HSPICE installation and authorized model cards: `NMOS_VTL.inc`, `PMOS_VTL.inc`, `NMOS_VTG.inc`, and `PMOS_VTG.inc`. The publication does **not** contain model cards or verification rule decks.
+
+```sh
+python3 simulation/run.py --list
+python3 simulation/run.py --case native-smoke --models-dir /path/to/model/cards --hspice /path/to/hspice --output-dir /path/to/scratch/sram-smoke
+python3 simulation/verify_results.py --case native-smoke --mt0 /path/to/scratch/sram-smoke/sim.mt0
+```
+
+Choose `representative-pex`, `representative-schematic`, or `coverage-rows00_01` through `coverage-rows14_15` for longer functional runs. `--prepare-only` stages inputs without launching HSPICE. Output directories must be new; recorded results are never overwritten. All project include paths are repository-relative; the runner resolves them and the `@MODELS@` placeholders into a separate runtime input tree. Only include paths were changed for publication; circuit, parasitic and stimulus statements are unchanged. The source validation results were generated in the original tool environment; publication checks validate packaging and recorded measurements, rather than claiming a new simulator rerun.
+
+The main PEX file and its two sidecars must remain together. The system PEX netlist explicitly maps the physical core's extracted pin order by name. Bias supplies, 50 ps controls, 1 ns clock and loads are specified in each test deck. `COL_EN` is held high in the functional tests; clock, `PRE_B`, `WE/WEB`, `SAE` and `WL_EN` are external testbench signals. Both VTL and VTG model families are required.
+
+PDK/device libraries, transistor model cards, Cadence/Calibre software, rule decks, license configuration, raw binary waveform files and course documents are excluded. Native design views and project-generated extracted netlists are included; no license for third-party tools or PDK assets is implied.

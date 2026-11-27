@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+simulation/output/
+cds.lib
+*.cdslck*
+.DS_Store

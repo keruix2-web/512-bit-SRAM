@@ -10,7 +10,7 @@
   "images/layout_overview.png": "9b2806a46e8d4af1d225ef6cfb0c1cc12b95e6f00173ad6ee5fa116224e206a7",
   "images/read_write_cycles.png": "5483a9c3f32801578abd9d4519ccf95f20c321f664d24f50eb1d02b886e13e3f",
   "images/register_clock_Q.png": "b570802d2bfc2f373e4e94ed7b16750a97e7cabf853d8d8d9903819bbcfaff5d",
-  "images/overall_system_diagram.png": "97f2c6fc752bbe040d380db9ab39864fa38e7a171829b9cb64eb676d0c130337",
+  "images/overall_system_diagram.png": "ea930f48b745570d2d36cf2d657e2f07cb36de24a74780645bd6779019562f30",
   "images/write_read_detail.png": "958a089ec10178a5d523136b6341fa7cc09c8de9527c4773e0330e993f63b779",
   "images/column_before_after.png": "8439a1538f217cfb2156b0b44a7288ce9b3a66dd0e45fd43ef876d191d1f94d7",
   "simulation/representative-pex.json": "548aa203f40bbac9879911cfb1a0f3bc42208ee9ed4ce2a7b8643efb31776d20",
@@ -546,5 +546,7 @@
   "results/raw/margin_schematic_000.mt0": "a147729d4aabbc09e710eee45082f506135b61285dc2eb56afaa90ec9b87275a",
   "results/raw/coverage-rows06_07.mt0": "c57895fc2aadfdd4bea8458852580fb8fbdf9e63acbe5dc8c8df100b47f18b20",
   "results/raw/margin_pex_000.mt0": "28ed84b38c7cdb983b105fff7cb13ff9304c072f166ef340b77b9e481b2ab623",
-  "scripts/configure_cadence.py": "59c304748be1730afd6c8d825302f97d6b7e42e377662452c96269aa9f76fe89"
+  "scripts/configure_cadence.py": "59c304748be1730afd6c8d825302f97d6b7e42e377662452c96269aa9f76fe89",
+  "images/overall_system_diagram.svg": "2ad4b58618694e5d1c0b36a1cfb04e484bc967361336606ad22be80bcdc24a8f",
+  "scripts/draw_system.py": "b2b6484ad5530583a4e5b7327f81f764cd4b09fd0d2c3dc8df0fd49e3633decd"
 }
